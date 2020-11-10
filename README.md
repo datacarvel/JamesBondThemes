@@ -4,7 +4,7 @@ Which James Bond Theme Song has the baddest mood? I looked all the official trac
 
 # Here is for the overall negative mood :
 
-![](https://github.com/datacarvel/JamesBondThemes/blob/main/BadMoodIndex-desktop.png)
+![](https://github.com/datacarvel/JamesBondThemes/blob/main/BadMoodIndex-desktop2.png)
 
 # And here are mobile-friendly charts showing 4 specific sentiments 
 
