@@ -1,7 +1,3 @@
-### General Bad Mood Index : Done, horizontal
-### General Bad Mood Index : Done, vertical/mobile
-### NRC Qualitative Indices : 
-
 library(devtools)
 # devtools::install_github('charlie86/spotifyr') # Installing it from CRAN or just install.packages won't work
 library(spotifyr)
@@ -425,50 +421,3 @@ Trust <- ggplot(Val_Plus_NRCsent3, aes(x = factor(track_title, levels = track_ti
   coord_flip()
 
 
-############################################################
-############################################################
-############################################################
-
-
-zzz <- sample(-100:100, 10)/100
-#norm <- (zzz-min(zzz))/(max(zzz)-min(zzz))
-norm <- (zzz-(-1))/(1-(-1))
-zzz2 <- (zzz + 1)/2
-
-barplot(zzz)
-barplot(norm)
-
-VVV <- c(0.5, 0.9, 0.8)
-AAA <- c(0.3, 0.6, 0.1)
-
-Wario <- data.frame(valence = VVV, afinn = AAA, sum = VVV + AAA, mean = (VVV+AAA)/2)
-
-barplot(Wario$mean)
-
-###
-
-2 * (XXX - 0.5)
-zzz <- sample(0:100, 50)/100
-normzzz <- 2 * (zzz - 0.5)
-
-barplot(zzz)
-barplot(normzzz)
-
-###
-
-zzz <- sample(-100:100, 10)/100
-
-normzzz <- (zzz + 1)/2
-
-### This valids my manual re-scaling was good (I learned about the scales library afterwards)
-
-library(scales)
-
-VVV <- c(0, 0.5, 0.9, 0.8, 1)
-AAA <- c(0.3, 0.6, 0.1)
-
-reVVV <- rescale(VVV, to = c(0, 100))
-nreVVV <- rescale(reVVV, to = c(-1, 1))
-
-ZZZ <- c(0.8, 0.6, 0.4, -0.4, -0.7, 0.2, -0.3, -1, 1)
-ZZZr <- rescale(ZZZ, to = c(0, 1))
