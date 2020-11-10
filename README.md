@@ -26,7 +26,9 @@ Which James Bond Theme Song has the baddest mood? I looked all the official trac
 
 # Thanks to everyone whose work helped me do this little project :
 
-https://www.rcharlie.com/blog/fitter-happier/ (the author of the spotifyr package itself)
+https://www.rcharlie.com/blog/fitter-happier/ (author of the spotifyr package's take on Radiohead songs)
+#
+Genius R package : https://github.com/JosiahParry/genius
 #
 https://towardsdatascience.com/angriest-death-grips-data-song-anger-code-through-r-ded3aa2fe844
 #
@@ -39,3 +41,7 @@ https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-f
 https://github.com/wch/extrafont
 #
 https://paldhous.github.io/NICAR/2019/r-text-analysis.html
+#
+AFINN text sentiment database, Informatics and Mathematical Modelling, Technical University of Denmark : http://www2.imm.dtu.dk/pubdb/pubs/6010-full.html
+#
+National Research Council of Canada text sentiment database by Saif Mohammad, NRC Word-Emotion Association Lexicon (aka EmoLex) : http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm
