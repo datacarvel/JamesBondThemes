@@ -6,6 +6,10 @@ Which James Bond Theme Song has the baddest mood? I looked all the official trac
 
 ![](https://github.com/datacarvel/JamesBondThemes/blob/main/BadMoodIndex-desktop2.png)
 
+Excluding the very first theme track which is instrumental, I carried a sentiment analysis using Spotify’s audio features for each track (notably the “valence” metric, which measures how positive or negative a track sounds) combined with a text sentiment analysis thanks to Genius.com for the lyrics. The text analysis part was possible thanks to the AFINN lexicon published by Informatics and Mathematical Modelling, Technical University of Denmark, a database attributing absolute positivity or negativity to words.  
+
+It was possible to calculate the Bad Mood Index by having both musical and lyrical data on the same scale (here 0 for positive, 1 for negative) and calculating the mean. 
+
 # And here are mobile-friendly charts showing 4 specific sentiments 
 
 ## Joy
